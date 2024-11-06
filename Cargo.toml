@@ -1,0 +1,11 @@
+[package]
+name = "simu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.19"                                  
+egui = "0.19"
+petgraph = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.132"
